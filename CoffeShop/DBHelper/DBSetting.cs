@@ -31,9 +31,9 @@ namespace CoffeShop.DBHelper
         private DBSetting()
         {
             MainConectString = string.Empty;
-            MasterConectString = @"Server=DESKTOP-UK4SB4O\SQLEXPRESS;Database=master;Trusted_Connection=True;";
+            MasterConectString = @"Server=192.168.99.100,1434;Initial Catalog=test;User ID=admin;Password=c81a57305c570bb51ba0f4a6d048274c;";
         }
-        private const string DBName = "CoffeeShop_DB";
+        private const string DBName = "test"; //"CoffeeShop_DB";
         public string ServerName { get; set; }
         public string MainConectString { get; set; }
         public string MasterConectString { get; set; }
@@ -63,11 +63,11 @@ namespace CoffeShop.DBHelper
         }
         public string BuidConnectString(string serverName)
         {
-            return $@"Server={serverName};Database={DBName};Trusted_Connection=True;";
+            return $@"Server={serverName};Database={DBName};";
         }
         public bool CheckConnectMasterDB(string serverName)
         {
-            string str = $@"Server={serverName};Database=master;Trusted_Connection=True;";
+            string str = $@"Server={serverName};Database=master;";
             using (SqlConnection connection = new SqlConnection(str))
             {
                 try

@@ -1,1 +1,1 @@
-Server=DESKTOP-UK4SB4O\SQLEXPRESS;Database=CoffeeShop_DB;Trusted_Connection=True;
+Server=192.168.99.100,1434;Initial Catalog=test;User ID=admin;Password=c81a57305c570bb51ba0f4a6d048274c;

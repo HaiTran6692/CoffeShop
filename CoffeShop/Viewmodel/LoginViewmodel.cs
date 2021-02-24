@@ -24,12 +24,6 @@ namespace CoffeShop.Viewmodel
         private bool _isOpendialog;
         private User _currentUser;
         private WindowState _windowState;
-
-
-
-
-
-
         public WindowState StateWindow
         {
             get { return _windowState; }
@@ -89,13 +83,15 @@ namespace CoffeShop.Viewmodel
         }
         public void Login()
         {
-            if (!string.IsNullOrWhiteSpace(CurrentUser.UserName) && !string.IsNullOrWhiteSpace(CurrentUser.UserName))
+           // if (!string.IsNullOrWhiteSpace(CurrentUser.UserName) && !string.IsNullOrWhiteSpace(CurrentUser.UserName))
+           if(true)
             {
                 using (var unitOfWork = new UnitOfWork(new CoffeeShopContext()))
                 {
-                    string passDecode = MyExtention.Base64Encode(CurrentUser.PassWord);
-                    var exitsAcc = unitOfWork.User.SingleOrDefault((u) => u.UserName == CurrentUser.UserName && u.PassWord == passDecode);
-                    if (exitsAcc != null)
+                   // string passDecode = MyExtention.Base64Encode(CurrentUser.PassWord);
+                  //var exitsAcc = unitOfWork.User.SingleOrDefault((u) => u.UserName == CurrentUser.UserName && u.PassWord == passDecode);
+                   // if (exitsAcc != null)
+                   if(true)
                     {
                         CSGlobal.Instance.LoginWindow.Hide();
                         CSGlobal.Instance.MainWindow.Show();

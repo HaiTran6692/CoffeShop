@@ -30,7 +30,7 @@ namespace CoffeShop.Viewmodel
            {
                try
                {
-                   Thread.Sleep(3000);
+                   Thread.Sleep(2000);
                    string connectString = DBSetting.Instance.LoadConfig();
                    bool isConnectDB = DBSetting.Instance.CheckConnectMainDB(connectString);
 

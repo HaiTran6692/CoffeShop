@@ -10,3 +10,15 @@ F:\Study\CoffeShop\Business\obj\Debug\Business.csproj.CopyComplete
 F:\Study\CoffeShop\Business\obj\Debug\Business.dll
 F:\Study\CoffeShop\Business\obj\Debug\Business.pdb
 F:\Study\CoffeShop\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\bin\Debug\Business.dll.config
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\bin\Debug\Business.dll
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\bin\Debug\Business.pdb
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\bin\Debug\EntityFramework.dll
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\bin\Debug\EntityFramework.xml
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\obj\Debug\Business.dll
+C:\Users\tnhfs\Documents\GitHub\CoffeShop\Business\obj\Debug\Business.pdb
