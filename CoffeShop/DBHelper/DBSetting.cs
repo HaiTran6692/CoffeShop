@@ -28,10 +28,11 @@ namespace CoffeShop.DBHelper
         }
         #endregion
 
+
         private DBSetting()
         {
             MainConectString = string.Empty;
-            MasterConectString = @"Server=192.168.99.100,1434;Initial Catalog=test;User ID=admin;Password=c81a57305c570bb51ba0f4a6d048274c;";
+            MasterConectString = @"Server=192.168.99;";
         }
         private const string DBName = "test"; //"CoffeeShop_DB";
         public string ServerName { get; set; }
